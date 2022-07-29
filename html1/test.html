@@ -1,0 +1,22 @@
+<html>
+<head><title>Factorials</title></head>
+<body>
+<h2>Table of Factorials</h2>
+<script>
+var fact = 1;
+for(i = 1; i < 10; i++) {
+fact = fact*i;
+document.write(i + "! = " + fact + "<br>");
+}
+
+document.write("<h2>Table of Fibonacci Numbers</h2>");
+for (i=0, j=1, k=0, fib =0; i<50; i++, fib=j+k, j=k, k=fib){
+document.write("Fibonacci (" + i + ") = " + fib);
+document.write("<br>");
+}
+</script>
+<button onclick="alert('You clicked the button');">
+Click here
+</button>
+</body>
+</html>
