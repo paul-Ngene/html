@@ -1,0 +1,10 @@
+
+
+CREATE TABLE `employee_db`.`employee` (`Name` VARCHAR(50) NOT NULL , `position` VARCHAR(50) NOT NULL , `tel` BIGINT(11) NOT NULL , `sex` VARCHAR(6) NOT NULL , `user_tooltip` TEXT NOT NULL ) ENGINE = InnoDB;
+
+db = employee_db
+table = employee
+
+INSERT INTO `employee` (`id`, `admin_id`, `Name`, `position`, `tel`, `email`, `gender`, `password`, `user_tooltip`, `date`) VALUES (NULL, '74099003', 'Paul Ngene', 'CEO', '9096024297', 'pauloneq@gmail.com', 'Male', '1234', '', '2022-09-17 21:00:50'), (NULL, '0', 'Emma Ngene', 'employee', '9000000000', '', 'Male', '', '', '2022-09-18 22:19:31'), (NULL, '0', 'Olisa Ogbodo', 'employee', '8000000000', '', 'Male', '', '', '2022-09-19 22:59:00'), (NULL, '0', 'Chris Ngene', 'employee', '9000000000', '', 'Male', '', '', '2022-09-19 23:11:46'), (NULL, '0', 'Paul Onyedika', 'employee', '8036886504', '', 'Male', '', 'The CEO', '2022-09-20 09:55:40'), (NULL, '2174090203', 'Innocent Ngene', 'employee', '123456789', '', 'Male', '1234', '', '2022-09-23 01:49:30') 
+
+ 
